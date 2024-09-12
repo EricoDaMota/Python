@@ -14,5 +14,5 @@ print(f'{valora} ** {valorb} = {pot}')
 divin = valora // valorb
 print(f'{valora} // {valorb} = {divin}')
 divr = valora % valorb
-print(f'{valora} % {valorb} =  {divr}')
+print(f'{valora} % {valorb} = {divr}')
 print(15 * '-')

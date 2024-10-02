@@ -1,5 +1,6 @@
-def exibirmensagem(nome):
-    print(f'Olá {nome}, é um prazer te conhecer!')
+def exibirmensagem(nome, idade):
+    print(f'Olá {nome}, com idade de {idade} anos, é um prazer te conhecer!')
 
 nome = input('Qual é o seu nome? ')
-exibirmensagem(nome)
+idade = input('Digite a sua idade? ')
+exibirmensagem(nome, idade)

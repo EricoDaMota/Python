@@ -1,6 +1,6 @@
 n1 = int(input('Digite o primeiro número: '))
 n2 = int(input('Digite o segundo número: '))
-oper = int(input('Digite a operação desejada soma(1), subtração(2), multiplicação(3), divisão(4), potenciação(5), sair do programa(6): '))
+oper = int(input('Digite a operação desejada soma(1), subtração(2), multiplicação(3), divisão(4), potenciação(5), resto da divisão(6),  sair do programa(7): '))
 if oper == 1:
     print(f'{n1} + {n2} = {n1 + n2}')
 elif oper == 2:
@@ -12,6 +12,8 @@ elif oper == 4:
 elif oper == 5:
     print(f'{n1} ** {n2} = {n1 ** n2}')
 elif oper == 6:
+    print(f'{n1} % {n2} = {n1 % n2}')
+elif oper == 7:
     exit
 else:
     print('Digite uma operação válida')

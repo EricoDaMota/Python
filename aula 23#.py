@@ -1,17 +1,4 @@
-número = int(input("Digite o seu número: ")) 
-
-# Retornando o resultado
-if número < 2:
-    print(f"Número {número} não é primo!")
-elif número == 2:
-    print("Número 2 é primo!")
-else:
-    for i in range(2, número):
-        if (número % i) == 0:
-            print(f"Número {número} não é primo!")
-            break
-        else:
-            if i == número - 1:
-                print(f"Número {número} é primo!")
-            else:
-                "aqui não será retornado nada"
+numero = int(input("digite um número para ver sua tabuada: "))
+for i in range(1,11): 
+    resultado = numero * i
+    print(f"{numero} x {i} = {resultado}")
